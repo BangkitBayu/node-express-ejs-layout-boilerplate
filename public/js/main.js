@@ -1,0 +1,1 @@
+alert("Ini adalah template yang digunakan untuk mempercepat setup layout dengan ejs")
