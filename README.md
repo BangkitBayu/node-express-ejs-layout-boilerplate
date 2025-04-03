@@ -14,15 +14,15 @@ Boilerplate ini adalah template sederhana untuk memulai proyek dengan Express.js
 # Instalasi:
 
 - Clone repository ini:
+
 ```sh
 git clone https://github.com/BangkitBayu/express-ejs-boilerplate.git
 ```
 
-- Pastikan Anda sudah menginstal Node.js
-
-Jika belum,install melalui website resminya : https://nodejs.org/en/download
+- Pastikan Anda sudah menginstal [Node.js]( https://nodejs.org/en/download)
 
 - Buat folder baru!
+
 Masuk ke folder proyek:
 
 ```sh
@@ -36,11 +36,13 @@ npm install
 ```
 
 - Jalankan server:
+
 ```sh
 nodemon server
 ```
 
 - Buka di browser:
+
 ```sh 
 http://localhost:5000
 ```
@@ -61,17 +63,17 @@ express-ejs-boilerplate/
 
 ```
 
-Konfigurasi
+# Konfigurasi
 
 Jika ingin mengubah port atau konfigurasi lain, edit file server.js.
 
-Kontribusi
+# Kontribusi
 
 Jika ingin berkontribusi, silakan fork repository ini dan buat pull request.
 
-Lisensi
+# Lisensi
 
-Boilerplate ini tersedia di bawah lisensi MIT.
+Boilerplate ini tersedia di bawah lisensi [MIT].
 
 Silakan gunakan boilerplate ini untuk proyek Anda! 
 
