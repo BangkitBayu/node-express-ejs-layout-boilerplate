@@ -3,25 +3,24 @@ Express EJS Boilerplate
 
 Boilerplate ini adalah template sederhana untuk memulai proyek dengan Express.js dan EJS. Cocok untuk developer yang butuh setup cepat dan pemula yang ingin belajar EJS.
 
-Fitur
+Fitur: 
 
-Struktur proyek yang rapi dan mudah dipahami
+- Struktur proyek yang rapi dan mudah dipahami
+- Routing dengan Express.js
+- Template engine menggunakan EJS
+- Middleware dasar sudah tersedia (morgan, express.static)
+- Layouting dengan partials (header, footer, dll.)
 
-Routing dengan Express.js
-
-Template engine menggunakan EJS
-
-Middleware dasar sudah tersedia (morgan, express.static)
-
-Layouting dengan partials (header, footer, dll.)
-
-Instalasi
+Instalasi:
 
 Pastikan Anda sudah menginstal Node.js.
+Install melalui website resminya : https://nodejs.org/en/download
 
 Clone repository ini:
-
-git clone https://github.com/BangkitBayu/express-ejs-boilerplate.git
+```sh
+//git clone:
+https://github.com/BangkitBayu/express-ejs-boilerplate.git
+```
 
 Masuk ke folder proyek:
 
@@ -32,15 +31,18 @@ Install dependencies:
 npm install
 
 Jalankan server:
-
-npm start
+```sh
+nodemon server
+```
 
 Buka di browser:
-
-http://localhost:3000
+```sh 
+http://localhost:5000
+```
 
 Struktur Proyek
 
+```sh
 express-ejs-boilerplate/
 │── views/            # Folder untuk file EJS
 │   ├── partials/     # Header, footer, dll.
@@ -51,6 +53,8 @@ express-ejs-boilerplate/
 │── routes/           # Folder untuk routing
 │── server.js         # File utama Express.js
 │── package.json      # Konfigurasi npm
+
+```
 
 Konfigurasi
 
